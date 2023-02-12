@@ -44,7 +44,7 @@ h1 {
 
 .stars {
     padding: 20px 0 15px 0;
-    width: 20px
+    width: 20px;
 }
 
 .review p {
@@ -122,7 +122,6 @@ figure img {
     .content-wrapper {
         display:flex;
         justify-content: space-between;
-        align-items: ;
         
     }
     .title {
@@ -141,45 +140,89 @@ figure img {
     }
 
     .review-section {
-        width: 50%;
+        width: 60%;
+        display: grid;
     }
 
     .review-section {
-        padding: 50px;
+        padding: 50px 20px 20px 20px;
     }
     .review,
     .review p,
     .five-stars {
         display: flex;
-        justify-content: center;
-        margin: 10px 0 0 0;
+        justify-content: left;
         padding: 0;
     }
+
 
     .five-stars {
         justify-content: center;
         padding: 0;
+        margin: 0;
         width: 40%;
+    }
+
+    .review {
+        width: 85%;
+        align-items: center;
+        padding: 8px 0;
     }
 
     .review p {
         justify-content: center;
-        align-items: baseline;
+        padding-top: 20px;
     }
     
     img.stars {
-        padding: 15px 0;
+        padding: 0 3px;
     }
 
+    #review-one {
+        margin-left: 25px;
+    }
+    #review-two {
+        margin-left: 65px;
+    }
+
+    #review-three {
+        margin-left: 105px;
+    }
+
+    #testimonial-div {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .testimonials {
-        width: 33%;
-        justify-content: space-around;
-        margin: 0px 10px;
+        width: 30%;
+        margin: 20px 0 120px 0;
+     }
+
+
+
+    .verified-buyer {
+        padding-top: 20px;
+    }
+
+    #testimonial-one {
+        margin-top: 0px;
+        margin-bottom: 140px;
+        margin-left: 20px;
+
+    }
+
+    #testimonial-two {
+        margin-top: 40px;
+    }
+
+    #testimonial-three {
+        margin-top: 40px;
+        margin-bottom: 100px;
+        margin-right: 20px;
     }
     
-    }
+    
 
 
 
