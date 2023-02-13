@@ -118,6 +118,7 @@ figure img {
 
     body {
         max-width: 1440px;
+        background-image: url(../images/bg-pattern-top-desktop.svg);
     }
     .content-wrapper {
         display:flex;
@@ -127,6 +128,7 @@ figure img {
     .title {
         width: 40%;
         margin-left: 30px;
+        margin-bottom: 30px;
     }
 
     h1,
@@ -135,18 +137,27 @@ figure img {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3.4rem;
         line-height: 3.5rem;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .title p {
+        font-size: 1.2rem;
+        width: 90%;
     }
 
     .review-section {
-        width: 60%;
-        display: grid;
+        width: 50%;
+        margin: 70px 0 0 0;
+        padding: 40px 20px 20px 20px;
     }
 
-    .review-section {
-        padding: 50px 20px 20px 20px;
+    .review p {
+        font-size: 1.2rem;
     }
+
     .review,
     .review p,
     .five-stars {
@@ -166,7 +177,8 @@ figure img {
     .review {
         width: 85%;
         align-items: center;
-        padding: 8px 0;
+        padding: 0;
+        margin-bottom: 20px;
     }
 
     .review p {
@@ -176,17 +188,18 @@ figure img {
     
     img.stars {
         padding: 0 3px;
+        width: 15px
     }
 
     #review-one {
-        margin-left: 25px;
+        margin-left: 0px;
     }
     #review-two {
-        margin-left: 65px;
+        margin-left: 45px;
     }
 
     #review-three {
-        margin-left: 105px;
+        margin-left: 90px;
     }
 
     #testimonial-div {
@@ -196,29 +209,35 @@ figure img {
 
     .testimonials {
         width: 30%;
-        margin: 20px 0 120px 0;
+        margin: 20px 0 160px 0;
      }
 
+    .testimonial-quote,
+    .verified-buyer h4, 
+    .verified-buyer p {
+        font-size: 1.1rem;
+    }
 
 
     .verified-buyer {
         padding-top: 20px;
+        margin: 10px 20px 20px 20px;
     }
 
     #testimonial-one {
         margin-top: 0px;
-        margin-bottom: 140px;
+        margin-bottom: 180px;
         margin-left: 20px;
 
     }
 
     #testimonial-two {
-        margin-top: 40px;
+        margin-top: 40px; 
     }
 
     #testimonial-three {
         margin-top: 40px;
-        margin-bottom: 100px;
+        margin-bottom: 140px;
         margin-right: 20px;
     }
     
